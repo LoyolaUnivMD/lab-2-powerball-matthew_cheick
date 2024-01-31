@@ -1,3 +1,12 @@
+// Programmers: Matthew Woodside and Cheick Ly
+// Course: CS212, Mr John
+// Due Date: 2/4/24
+// Lab Assignment: 2
+// Problem Statement:
+// Data In: Name of player
+// Data Out: Prize, random lottery numbers, instructions
+// Credits: Based on in class example
+
 import java.util.Scanner;
 import java.util.Random;
 import java.text.DecimalFormat;
@@ -18,9 +27,13 @@ class Lab2 {
             System.out.println(fmt.format(number.nextInt(99)) + " " + fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)));
             i ++;
             }
+// Print out the seperators
         System.out.println("------------------");
+// Print out a goodluck messages with the players name
         System.out.println("Good luck " + player.strip() + "!");
+// Print out the estimated jackpots
         System.out.println("Estimated Jackpot: ");
+// Set up a new decimal format to add commas print out prize amount
         DecimalFormat form = new DecimalFormat("#000,000,000");
         System.out.println("$" + form.format(prize));
         System.out.println("------------------");
