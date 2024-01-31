@@ -14,14 +14,20 @@ import java.text.DecimalFormat;
 class Lab2 {
     public static void main(String[] args) {
         long prize = 225938745L;
+// Sets up the scanner utility with the key word 'input'
         Scanner input = new Scanner(System.in);
         System.out.println("CS 212 - Lab 2");
+// Outputs purpose of the program
         System.out.println("Welcome to CS212 live betting, the only program where students under 21 operate the lottery system. This game will allow you to receive 10 lottery tickets and, ultimately, see the prize pool. Good luck, and if you have a gambling problem seek professional help!");
+// Asks and store user's name
         System.out.println("What's your name? ");
         String player = input.nextLine();
+// Outputs an expression telling the users what's to come
         System.out.println("Here are the tickets: ");
+// Sets up the random and decimalformat utility
         Random number = new Random();
         DecimalFormat fmt = new DecimalFormat("#00");
+// While loop which prints out all of the random numbers
         int i = 0;
         while (i < 10) {
             System.out.println(fmt.format(number.nextInt(99)) + " " + fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)) + " " +fmt.format(number.nextInt(99)));
