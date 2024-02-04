@@ -98,7 +98,7 @@ class Lab2 {
 // Print out the estimated jackpots
         System.out.println("Your Winnings Are: ");
 
-// Set up a new decimal format to add commas print out prize amount
+// Set up a new decimal format and print out prize amount
         DecimalFormat form = new DecimalFormat("#0.00");
         System.out.println("$" + form.format(prize));
         System.out.println("------------------");
