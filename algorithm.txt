@@ -1,12 +1,18 @@
-1) Import all of the necessary utilities: scanner, decimalformat, and random
-2) Output description of the program: "Welcome to CS212 live betting, the only program where students under 21 operate the lottery system. This game will allow you to receive 10 lottery tickets and, ultimately, the prize pool. Good luck, and if you have a gambling problem seek professional help. 
+1) Import and set up all of the necessary utilities: scanner, decimalformat, and random
+2) Output description of the program: "Welcome to CS212 live betting, the only program where students under 21 operate the lottery system. This game will allow you to receive 10 lottery tickets and, ultimately, the prize pool. Good luck, and if you have a gambling problem seek professional help." 
 3) Ask for the player's name: "What's your name? "
 4) Store user's name in player
-5) Output: "Here are the tickets: "
-6) Generate/Output 10 row of 6 random numbers from 0 to 99
-7) Output line of "-"
-8) Output: "Goodluck" + player
-9) Output: "Estimated Jackpot"
-10) Output: jackpot
+5) Ask for the player's bet: "How much would you like to bet? "
+6) Store user's bet in bet 
+7) Output: "Great! " + player + " wants to bet " + bet
+8) Output: "Here are the tickets: "
+9) Output line of "-"
+10) Generate/Output 10 row of 6 random numbers from 0 to 99, making sure to multiply the prize if certain numbers are selected (This is through the use of two while loops and some if statements) 
+11) Output line of "-"
+12) Output: "Good luck" + player + "!"
+Output line of "-"
+13) Output: "Estimated Jackpot"
+14) Output: "Your Winnings Are: "
+15) Output: "$" + prize
 11) Output line of "-"
 
