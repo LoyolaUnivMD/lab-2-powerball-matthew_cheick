@@ -1,4 +1,4 @@
-// Programmers: Matthew Woodside and Cheick Ly
+// Programmer(s): Matthew Woodside and Cheick Ly
 // Course: CS212, Mr John
 // Due Date: 2/4/24
 // Lab Assignment: 2
